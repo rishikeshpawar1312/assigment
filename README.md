@@ -1,66 +1,75 @@
- RBAC Dashboard for VRV Security
-Project Overview
-A Role-Based Access Control (RBAC) dashboard demonstrating user and role management with dynamic permissions.
-Features
+# VRV Security RBAC Dashboard
 
-User Management
+## Project Overview
+Role-Based Access Control (RBAC) dashboard for managing users and permissions.
 
-Add, edit, delete users
-Role assignment
-User status management
+## 🚀 Features
+- User Management
+  - Add, edit, delete users
+  - Role assignment
+  - User status control
+- Role Management
+  - Create custom roles
+  - Define granular permissions
+- Responsive design
 
+## 💻 Tech Stack
+- React
+- Vite
+- Tailwind CSS
+- React Router
+- Context API
 
-Role Management
+## 🔧 Installation
 
-Create and modify roles
-Define granular permissions
+### Prerequisites
+- Node.js (v16+)
+- npm
 
+### Setup
+1. Clone the repository
+   ```bash
+   git clone https://github.com/yourusername/rbac-dashboard.git
+   ```
 
-Responsive design
-Mock API for backend simulation
+2. Navigate to project directory
+   ```bash
+   cd rbac-dashboard
+   ```
 
-Tech Stack
+3. Install dependencies
+   ```bash
+   npm install
+   ```
 
-React
-Vite
-Tailwind CSS
-React Router
-Context API
+4. Start development server
+   ```bash
+   npm run dev
+   ```
 
-Setup Instructions
+## 🔐 Permissions Matrix
+- User Permissions
+  - read
+  - write
+  - delete
+- Role Permissions
+  - create
+  - modify
+  - assign
 
-Clone repository
-Install dependencies:
-bashCopynpm install
+## 🌟 Key Components
+- UserManagement: Handles user CRUD operations
+- RoleManagement: Manages role definitions
+- RBACContext: Centralized state management
 
-Run development server:
-bashCopynpm run dev
+## 🚧 Future Roadmap
+- Backend API integration
+- Enhanced permission granularity
+- Advanced filtering
+- Authentication middleware
 
+## 📄 License
+MIT License
 
-Permissions Supported
-
-User Operations: read, write, delete
-Role Operations: read, write, delete
-Dashboard: view
-Reports: generate
-
-Security Considerations
-
-Client-side input validation
-Role-based access control
-Simulated secure user management
-
-Potential Improvements
-
-Backend API integration
-Enhanced permission granularity
-Advanced search/filter capabilities
-Authentication middleware
-
-Assignment Compliance
-This project fulfills VRV Security's RBAC UI assignment requirements, demonstrating:
-
-Dynamic user/role management
-Intuitive interface
-Modular design
-Responsive implementation
+## 📞 Contact
+Your Name - youremail@example.com
