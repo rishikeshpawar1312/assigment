@@ -62,14 +62,4 @@ Role-Based Access Control (RBAC) dashboard for managing users and permissions.
 - RoleManagement: Manages role definitions
 - RBACContext: Centralized state management
 
-## 🚧 Future Roadmap
-- Backend API integration
-- Enhanced permission granularity
-- Advanced filtering
-- Authentication middleware
-
-## 📄 License
-MIT License
-
-## 📞 Contact
-Your Name - youremail@example.com
+ 
